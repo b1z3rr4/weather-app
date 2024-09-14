@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body { 
+    font-family: "Roboto", sans-serif;
+}
+
+.app-bar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background: #088537;
+    justify-content: space-between;
+}
+
+.logo {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.logo > span {
+    color: #fff;
+}
+
+.logo > h2 {
+    color: #fff;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > ul { 
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-item > a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: text-decoration 1s ease;
+}
+
+.nav-item > a:hover {
+    text-decoration: underline;
+}
