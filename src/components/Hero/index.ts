@@ -17,16 +17,18 @@ export const Hero = () => {
       </nav>
     </header>
     <section class="banner-hero" id="home">
-      <div class="container-graus">
-        <div class="sun">
-          <span class="material-symbols-outlined"> wb_sunny </span>
+      <div class="city-weather">
+        <div class="container-graus">
+          <div class="sun">
+            <span class="material-symbols-outlined"> wb_sunny </span>
+          </div>
+          <div class="graus">
+            <p class="temperature" id="app-temp">24°C</p>
+            <p id="app-description">Sunny</p>
+          </div>
         </div>
-        <div class="graus">
-          <p class="temperature">24°C</p>
-          <p>Sunny</p>
-        </div>
+        <div class="city"><p id="app-citty">San Francisco, CA</p></div>
       </div>
-      <div class="city"><p>San Francisco, CA</p></div>
     </section>
   `;
 };

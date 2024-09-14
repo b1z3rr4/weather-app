@@ -73,6 +73,13 @@ body {
     font-size: 38px;
   }
 }
+
+.city-weather {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
 .sun {
   display: flex;
   align-items: center;
@@ -81,18 +88,17 @@ body {
   background-color: #32914b;
   border-radius: 100%;
 }
+
 .temperature {
   font-weight: 900;
   font-size: 38px;
 }
+
 .graus {
   gap: 24px;
 }
+
 .container-graus {
   display: flex;
   gap: 24px;
-}
-
-.city {
-  margin-right: 32px;
 }
