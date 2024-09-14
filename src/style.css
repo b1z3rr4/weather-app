@@ -1,54 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body { 
-    font-family: "Roboto", sans-serif;
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .app-bar {
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    background: #088537;
-    justify-content: space-between;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background: #088537;
+  justify-content: space-between;
 }
 
 .logo {
-    gap: 12px;
-    display: flex;
-    align-items: center;
+  gap: 12px;
+  display: flex;
+  align-items: center;
 }
 
 .logo > span {
-    color: #fff;
+  color: #fff;
 }
 
 .logo > h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-bar {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.nav-bar > ul { 
-    gap: 24px;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
+.nav-bar > ul {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
 .nav-item > a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: text-decoration 1s ease;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: text-decoration 1s ease;
 }
 
 .nav-item > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.banner-hero {
+  background-color: #088537;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 69px);
+  gap: 24px;
+  font-size: 18px;
+
+  p {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+    font-size: 38px;
+  }
+}
+.sun {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #32914b;
+  border-radius: 100%;
+}
+.temperature {
+  font-weight: 900;
+  font-size: 38px;
+}
+.graus {
+  gap: 24px;
+}
+.container-graus {
+  display: flex;
+  gap: 24px;
+}
+
+.city {
+  margin-right: 32px;
 }
