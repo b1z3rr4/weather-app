@@ -19,7 +19,7 @@ export const Hero = () => {
     <section class="banner-hero" id="home">
       <div class="city-weather">
         <div class="container-graus">
-          <div class="sun">
+          <div class="sun" id="app-icon">
             <span class="material-symbols-outlined"> wb_sunny </span>
           </div>
           <div class="graus">

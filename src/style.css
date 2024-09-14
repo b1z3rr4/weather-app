@@ -81,12 +81,22 @@ body {
 }
 
 .sun {
+  width: 68px;
+  height: 68px;
+  padding: 12px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 15px;
-  background-color: #32914b;
   border-radius: 100%;
+  justify-content: center;
+  background-color: rgba(208, 253, 194, 0.2);
+} 
+
+.sun > i { 
+  display: flex;
+  color: #fff;
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 .temperature {
@@ -101,4 +111,14 @@ body {
 .container-graus {
   display: flex;
   gap: 24px;
+}
+
+@media (max-width: 425px) {
+  .nav-bar  {
+    display: none;
+  }
+
+  .app-bar {
+    justify-content: center;
+  }
 }
