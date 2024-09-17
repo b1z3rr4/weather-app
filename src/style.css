@@ -89,9 +89,9 @@ body {
   border-radius: 100%;
   justify-content: center;
   background-color: rgba(208, 253, 194, 0.2);
-} 
+}
 
-.sun > i { 
+.sun > i {
   display: flex;
   color: #fff;
   font-size: 32px;
@@ -114,7 +114,7 @@ body {
 }
 
 @media (max-width: 425px) {
-  .nav-bar  {
+  .nav-bar {
     display: none;
   }
 

@@ -1,0 +1,37 @@
+.forecast {
+  height: 350px;
+  background-color: #fff;
+}
+.title {
+  padding: 50px 30px 20px 70px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #e9e7e7;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.itens-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  background-color: #c9c6c6;
+  width: 230px;
+  border-radius: 30px;
+  font-size: 22px;
+  margin-bottom: 22px;
+}
+
+.container-itens {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
