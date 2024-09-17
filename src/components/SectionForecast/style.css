@@ -35,3 +35,19 @@
   justify-content: space-around;
   width: 100%;
 }
+@media (max-width: 425px) {
+  .container-itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+  }
+  .forecast {
+    height: auto;
+    background-color: #fff;
+  }
+  .card {
+    margin: 16px;
+  }
+}
